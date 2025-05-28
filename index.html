@@ -5,42 +5,21 @@
     <title>Profile</title>
     <meta name="description" content="プロフィールサイトを通してHTMLとCSSの基本を身につけましょう">
     <link rel="stylesheet" href="/works/css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/works/css/style.css">
+    <style>
+        body {
+            font-family: "Noto Sans JP", sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <!--
-      h: 見出し block
-      p: 段落 block
-      div:　グループ化 block
-      img: 画像 inline
-      section:　章 block
-      footer:　フッター block
-      small:　テキスト小さく　inline
 
+    <div class="wrapper">
+        <h1 class="name">吉田 映子</h1>
 
-     -->
-    
-     <!--
-      background-color:　背景色
-      font-family:　フォントの書体
-      font-size:　フォントの大きさ
-      font-weight:　フォントの太さ
-      margin:　要素の外側の余白
-      padding:　要素の内側の余白
-      text-align:　ブロック要素の水平方向の配慮
-      width:　要素の横幅
-
-     -->
-
-      　<div class="wrapper">
-         <h1 class="name">吉田　映子</h1>
-
-         <div class="container">
+        <div class="container">
             <div class="profile-img">
-                <img src="/works/img/Profilephoto.jpeg" alt="吉田　映子の写真">
+                <img src="/works/img/Profilephoto.jpeg" alt="吉田 映子の写真">
             </div>
 
             <section class="section-wrap">
@@ -49,20 +28,20 @@
                 <p>出身：New York</p>
                 <p>趣味：カメラ撮影/絵を描くこと</p>
                 <p>好きな言葉：freedom of choice for everyone.</p>
-
             </section>
 
             <section class="section-wrap">
                 <h2 class="section-ttl">略歴</h2>
-                <p> 1998年02月：ニューヨークに産まれる </p>
-                <p> 2004年04月：ニューヨークの小学校に入学</p>
-                <p> 2008年12月：両親の仕事の関係で日本に移住</p>
-                <p> 2016年04月：写真の専門学校に入学</p>
-                <p> 2018年12月：Webデザインスクールに入学</p>
+                <p>1998年02月：ニューヨークに産まれる</p>
+                <p>2004年04月：ニューヨークの小学校に入学</p>
+                <p>2008年12月：両親の仕事の関係で日本に移住</p>
+                <p>2016年04月：写真の専門学校に入学</p>
+                <p>2018年12月：Webデザインスクールに入学</p>
             </section>
 
             <section class="section-wrap">
                 <h2 class="section-ttl">私の作品</h2>
+
                 <p>日本の風景</p>
                 <div class="work-img">
                     <img src="/works/img/work05.jpeg" alt="日本の風景">
@@ -77,17 +56,13 @@
                 <div class="work-img">
                     <img src="/works/img/work03.jpg" alt="富士山">
                 </div>
-
-
             </section>
-        
-         </div>
+        </div>
 
-         <footer class="footer">
+        <footer class="footer">
             <small class="footer-cr">佛田デザイン製作所</small>
-         </footer>
-      </div>
-
+        </footer>
+    </div>
 
 </body>
 </html>
